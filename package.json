@@ -1,0 +1,31 @@
+{
+  "name": "vyapaari-ai",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "seed": "tsx scripts/seed.ts",
+    "test-turn": "tsx scripts/test-turn.ts",
+    "test-insight": "tsx scripts/test-insight.ts"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@langchain/core": "^0.3.40",
+    "@langchain/langgraph": "^0.2.44",
+    "@supabase/supabase-js": "^2.45.4",
+    "groq-sdk": "^0.9.1",
+    "next": "^15.5.19",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "dotenv": "^16.4.7",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}

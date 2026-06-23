@@ -1,0 +1,25 @@
+project_id = "htaztqkypceohudnktjq"
+
+# Pinned to current REMOTE values so `config push` only changes auth.sms.enable_signup.
+# (config push is a full-config sync; any field omitted here resets to CLI defaults.)
+
+[auth]
+site_url = "http://localhost:3000"
+additional_redirect_urls = []
+
+[auth.mfa.totp]
+enroll_enabled = true
+verify_enabled = true
+
+[auth.email]
+enable_confirmations = true
+max_frequency = "1m0s"
+otp_length = 8
+
+[auth.sms]
+enable_signup = true
+enable_confirmations = true
+
+[auth.sms.test_otp]
+919140923821 = "123456"
+917042264560 = "654321"

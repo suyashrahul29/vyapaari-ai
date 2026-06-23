@@ -1,0 +1,11 @@
+<svg width="340" height="220" viewBox="0 0 340 220" xmlns="http://www.w3.org/2000/svg">
+  <defs><style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&amp;display=swap');
+  .wm{font-family:'Poppins',sans-serif;font-weight:600;font-size:48px;letter-spacing:-1px;}
+  .tag{font-family:'Poppins',sans-serif;font-weight:500;font-size:16px;letter-spacing:0.5px;}</style></defs>
+  <path d="M134 78 C158 74 164 46 184 34 C204 22 214 18 232 4" fill="none" stroke="#3B2B23" stroke-width="4.5" stroke-linecap="round" transform="translate(-13,16)"/>
+  <circle cx="121" cy="110" r="5.5" fill="#3B2B23"/>
+  <circle cx="171" cy="66" r="6.5" fill="#3B2B23"/>
+  <circle cx="219" cy="32" r="11" fill="#E86A1C"/>
+  <text x="170" y="160" text-anchor="middle" class="wm" fill="#3B2B23">Vyapaari<tspan fill="#E86A1C"> AI</tspan></text>
+  <text x="170" y="192" text-anchor="middle" class="tag" fill="#6B5E52">Bada socho, chhoti dukaan se</text>
+</svg>
